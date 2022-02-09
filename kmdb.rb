@@ -277,4 +277,3 @@ casting = Role.all
 for cast in casting
     puts "#{cast.movie.title} #{cast.person.name} #{cast.character_name}" 
 end
- 
