@@ -273,7 +273,10 @@ puts ""
 # TODO!
 
 all_people = Person.all
+all_roles = Role.all
 
 for person in all_people
-    puts "#{movie.title} #{person.name} #{role.character_name}"
+    for role in all_roles
+     puts "#{movie.title} #{person.name} #{role.character_name}"
+    end
 end
